@@ -6,11 +6,11 @@
 // -1, -7, 567, 89, 223 -> 3
 
 Console.Write("Введите элементы(через пробел): ");
-int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int[] array = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
-for (int i = 0; i < arr.Length; i++)
+for (int i = 0; i < array.Length; i++)
 {
-    if (arr[i] > 0)
+    if (array[i] > 0)
     {
         count++;
     }
